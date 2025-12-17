@@ -19,7 +19,7 @@ const Register = () => {
     const result = register(formData);
 
     if (result.success) {
-      // SUCCESS: Go directly to Profile (Auto-login)
+      
       navigate('/profile'); 
     } else {
       setError(result.message);

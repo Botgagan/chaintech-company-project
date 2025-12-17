@@ -13,7 +13,6 @@ function App() {
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/profile" element={<Profile />} />
-          {/* Redirect unknown routes to Login */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>

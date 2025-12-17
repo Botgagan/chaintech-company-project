@@ -26,7 +26,7 @@ const Profile = () => {
   return (
     <div className="min-h-screen p-8 flex justify-center">
       <div className="w-full max-w-2xl">
-        {/* Header Section */}
+        
         <div className="bg-white rounded-xl shadow-md p-6 mb-6 flex justify-between items-center">
           <div>
             <h1 className="text-2xl font-bold text-gray-800">Dashboard</h1>
@@ -40,7 +40,7 @@ const Profile = () => {
           </button>
         </div>
 
-        {/* Profile Details Card */}
+        
         <div className="bg-white rounded-xl shadow-md p-8">
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-xl font-semibold text-gray-700">Profile Details</h2>
@@ -55,7 +55,7 @@ const Profile = () => {
           </div>
 
           <div className="space-y-6">
-            {/* Email Field (Read-only) */}
+        
             <div>
               <label className="block text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">Email</label>
               <div className="text-gray-900 font-medium text-lg border-b pb-2 border-gray-100">
@@ -63,7 +63,7 @@ const Profile = () => {
               </div>
             </div>
 
-            {/* Name Field (Editable) */}
+        
             <div>
               <label className="block text-sm font-medium text-gray-500 uppercase tracking-wider mb-2">Full Name</label>
               

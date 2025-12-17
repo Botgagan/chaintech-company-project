@@ -6,10 +6,10 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const { login, user } = useAuth(); // Get 'user' to check status
+  const { login, user } = useAuth(); 
   const navigate = useNavigate();
 
-  // If already logged in, redirect to Profile
+  
   useEffect(() => {
     if (user) {
       navigate('/profile');
