@@ -6,7 +6,7 @@ A modern, responsive React application featuring a complete user authentication 
 ![Tech Stack](https://img.shields.io/badge/Vercel-Vite%20-blue)
 
 ## 🚀 Live Demo
-**[Click here to view the Live Application](https://your-app-name.vercel.app)**
+**https://chaintech-company-project.vercel.app/**
 
 ---
 
